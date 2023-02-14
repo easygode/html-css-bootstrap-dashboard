@@ -8,9 +8,18 @@
 header {
     width: 100%;
     background-color: #f8f9fa;
-    height: 70px;
+    height: 4.375rem;
 }
 
+.header-top {
+line-height: 4.375rem;
+}
+
+.lavarel {
+    border: 2px solid gray;
+    width: 25rem;
+    height: 3.125rem;
+}
 
 /*Menu Sinistra"/
 
