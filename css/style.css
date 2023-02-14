@@ -5,7 +5,11 @@
 
 /*Header Top*/
 
-
+header {
+    width: 100%;
+    background-color: #f8f9fa;
+    height: 70px;
+}
 
 
 /*Menu Sinistra"/
