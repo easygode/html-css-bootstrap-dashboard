@@ -1,38 +1,25 @@
-
 /*Common*/
 
+body{
+    background-color: aliceblue;
+}
 
+/*Header*/
 
-/*Header Top*/
+.fa-bell{
+color: var(--bs-warning);
+}
 
-header {
-    width: 100%;
-    background-color: #f8f9fa;
+header{
+    background-color: #f6f6f6;
     height: 4.375rem;
 }
 
-.header-top {
-    line-height: 4.375rem;
+#search{
+    background-color: #e5e5e5;
 }
 
-/*Menu Sinistra"*/
-
-#nav-sx {
-    background-image: url(../img/sidebar-bg.png);
-    background-color: #051e34;
-    color: #c7cdd2;
+.img-mobile {
+    width: 2.8125rem;
+    height: 2.8125rem;
 }
-
-/*Header Bottom*/
-
-.header-bottom {
-    background-color: #1b72e8;
-    color: #c7cdd2;
-
-}
-
-.badge {
-    border-radius: 1.25rem;
-}
-
-/*Main*/
