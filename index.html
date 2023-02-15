@@ -20,66 +20,95 @@
             <div id="logo">
                 <img src="img/logo.svg" alt="logo">
             </div>
-            <div class="search-bar">
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2 mt-3" type="search" placeholder="Search" aria-label="Search">
+            <div class="search-bar d-flex">
+                <form>
+                    <input class="form-control me-2 mt-3" type="search" placeholder="Prova a cercare lezioni di Laravel">
                   </form>
             </div>
 
             <div class="icone-header d-flex">
-                <div>Menu</div>
-                <div class>Domanda</div>
-                <div class>Puntini</div>
-                <div class>Campanella</div>
+                <div class="px-3"><i class="fa-solid fa-bars"></i></div>
+                <div class="px-3"><i class="fa-solid fa-circle-question"></i></div>
+                <div class="px-3"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+                <div class="px-3"><i class="fa-solid fa-bell"></i></div>
             </div>
         </div>   
     </header>
     <!--/Header Top-->
 
      <!--Menu Sinistra-->
-     <section>
-        <div class="menu-sx">
-            <div class="home">
-                <div>I Home</div>
-                <div>Home</div>
+     <div class="b-container d-flex">
+        <section id="nav-sx">
+            <div class="menu-sx d-flex flex-column">
+                <div class="home d-flex justify-content-around p-2">
+                    <div><i class="fa-solid fa-house"></i></div>
+                    <div>Home</div>
+                </div>
+                <div class="stats d-flex justify-content-around p-2">
+                    <div><i class="fa-solid fa-chart-simple"></i></div>
+                    <div>Stats</div>
+                </div>
+                <div class="signals d-flex justify-content-around p-2">
+                    <div><i class="fa-solid fa-signal"></i></div>
+                    <div>Signals</div>
+                </div>
+                <div class="admin d-flex justify-content-around p-2">
+                    <div><i class="fa-solid fa-gear"></i></div>
+                    <div>Admin</div>
+                </div>
             </div>
-            <div class="stats">
-                <div>I Stats</div>
-                <div>Stats</div>
-            </div>
-            <div class="signals">
-                <div>I Signals</div>
-                <div>Signals</div>
-            </div>
-            <div class="Admin">
-                <div>I Admin</div>
-                <div>Admin</div>
-            </div>
-        </div>
-    </section>
+        </section>
      <!--/Menu Sinistra-->
 
      <!--Header Bottom-->
-     <section>
-        <div class="row header-top">
-            <div class="col boolean">
-                <div class="badge"></div>
-                <div class="badge"></div>
-            </div>
-            <div class="col studenti">
-                <div class="studenti">
-                    <h2>Studenti online negli ultimi 30 minuti</h2>
+        <section>
+            <div class="row header-bottom">
+                <div class="col boolean">
+                    <h2>Boolean<span class="badge bg-warning mx-3">Piano Blaze</span></h2>
+                    <span class="badge bg-warning">3 app</span>
+                    <span class="badge bg-warning">Boolean mobile app</span>
+                    <span class="badge bg-warning">Boolean web app</span>
+                    <span class="badge bg-warning">Boolean blog app</span>
+            
                 </div>
-                <div class="studenti">
-                    <h2>125</h2>
+                <div class="col studenti">
+                    <div class="studenti">
+                        <h5>Studenti online negli ultimi 30 minuti</h5>
+                    </div>
+                    <div class="studenti">
+                        <h2>125</h2>
+                    </div>
+                </div>
+                <div class="col nuovo d-flex">
+                    <div class="nuovo px-3">Nuovo Studente</div>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                        <div class="nuovo"><i class="fa-regular fa-square-plus"></i></div>
+                      </button>
+                      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                        <div class="offcanvas-header">
+                          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci Studente</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                          <div>
+                            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+                          </div>
+                          <div class="dropdown mt-3">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                              Dropdown button
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
                 </div>
             </div>
-            <div class="col nuovo">
-                <div class="nuovo">Nuovo Studente</div>
-                <div class="nuovo">I Nuovo</div>
-            </div>
-        </div>
-    </section>
+        </section>
+    </div>
      <!--/Header Bottom-->
    <!--/Header-->
 

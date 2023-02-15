@@ -12,23 +12,27 @@ header {
 }
 
 .header-top {
-line-height: 4.375rem;
+    line-height: 4.375rem;
 }
 
-.lavarel {
-    border: 2px solid gray;
-    width: 25rem;
-    height: 3.125rem;
+/*Menu Sinistra"*/
+
+#nav-sx {
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051e34;
+    color: #c7cdd2;
 }
-
-/*Menu Sinistra"/
-
-
-
 
 /*Header Bottom*/
 
+.header-bottom {
+    background-color: #1b72e8;
+    color: #c7cdd2;
 
+}
 
+.badge {
+    border-radius: 1.25rem;
+}
 
 /*Main*/
