@@ -1,5 +1,9 @@
 /*Common*/
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 /*Header*/
 
 .fa-bell{
@@ -30,8 +34,9 @@ aside li:hover {
     background-color: #535050;;
 }
 
-main {
+.h-bottom {
     background-color: #1b72e8;
+    height: 10rem;
 }
 
 
@@ -39,6 +44,6 @@ main {
 
 @media screen and (min-width: 5rem) {
     .offcanvas {
-        width: 800px;
+        width: 62.5rem;
     }
 }
