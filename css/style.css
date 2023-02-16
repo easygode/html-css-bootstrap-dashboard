@@ -1,6 +1,6 @@
 /*Common*/
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -11,7 +11,7 @@ color: var(--bs-warning);
 }
 
 header{
-    background-color: #f6f6f6;
+    background-color: #fff;
     height: 4.375rem;
 }
 
@@ -25,9 +25,11 @@ header{
 }
 
 /*Aside*/
+
 aside {
     background-image: url(../img/sidebar-bg.png);
     background-color: #051e34 ;
+    height: 10rem;
 }
 
 aside li:hover {
